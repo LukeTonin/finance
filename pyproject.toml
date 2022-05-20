@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "finance"
+authors = [
+    "Luke Tonin <luke159852@gmail.com>"
+]
+license = "MIT license"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+yfinance = "^0.1.70"
+requests = "^2.27.1"
+requests-cache = "^0.9.4"
+matplotlib = "^3.5.2"
+ipympl = "^0.9.1"
+tqdm = "^4.64.0"
+
+[tool.poetry.group.dev.dependencies] 
+pytest = "^7.1"
+black = "^22.3"
+jupyterlab = "^3.4.2"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

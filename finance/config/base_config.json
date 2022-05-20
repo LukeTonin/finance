@@ -1,0 +1,17 @@
+{
+    "credentials_path": "../credentials.json",
+    "cache": {
+        "eodhistoricaldata": {
+            "path": "../cache/eodhistoricaldata",
+            "backend": "filesystem",
+            "serializer": "pickle",
+            "expire_after": null
+        },
+        "yfinance": {
+            "path": "../cache/yfinance",
+            "backend": "filesystem",
+            "serializer": "pickle",
+            "expire_after": null
+        }
+    }
+}
